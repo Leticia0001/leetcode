@@ -12,6 +12,6 @@ class Solution:
         return result # 返回最大子數組和
 
 solution=Solution()
-print(solution.maxSubArray(nums))  # 應該輸出 11
+print(solution.maxSubArray(nums))  # 應該輸kj出 11
 
 
