@@ -4,6 +4,7 @@
 # Time Complexity:O(n)
 # Space Complexity:O(1)
 
+
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n <= 2:
