@@ -1,6 +1,6 @@
 # Ideas: DP
-# 已知走一步的方法是一種，走兩步的方法是兩種
-# 從第3個開始計算直到第n個停止，將舊的值變成dp[i - 1]，並把新的值變成dp[i - 1] + dp[i - 2]
+# There is 1 way to take one step, and 2 ways to take two steps.
+# Starting from the 3rd step up to the nth, update the old value to dp[i - 1],and compute the new value as dp[i - 1] + dp[i - 2].
 # Time Complexity:O(n)
 # Space Complexity:O(1)
 
