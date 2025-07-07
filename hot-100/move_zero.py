@@ -5,7 +5,3 @@ class Solution:
             if nums[i]!=0:
                 nums[insertPos],nums[i]=nums[i],nums[insertPos] 
                 insertPos=insertPos+1
-
-
-
-        
