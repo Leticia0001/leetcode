@@ -46,7 +46,7 @@ class Solution:
         return dummy.next
 
 
-# 工具函數：建立 linked list
+#build linked list
 def build_linked_list(nums):
     dummy = ListNode()
     current = dummy
@@ -55,14 +55,14 @@ def build_linked_list(nums):
         current = current.next
     return dummy.next
 
-# 工具函數：印出 linked list
+# print linked list
 def print_linked_list(node):
     while node:
         print(node.val, end=" -> ")
         node = node.next
     print("None")
 
-# 測試
+# Test Case
 l1 = build_linked_list([2, 4, 3])  # 代表數字 342
 l2 = build_linked_list([5, 6, 4])  # 代表數字 465
 
